@@ -1,0 +1,46 @@
+{
+  "name": "typescript-react-base-template",
+  "version": "1.0.0",
+  "description": "Base template project for typescript, react and tailwind apps using webpack",
+  "type": "module",
+  "scripts": {
+    "dev": "webpack serve --config webpack/webpack.dev.config.js",
+    "build": "webpack --config webpack/webpack.prod.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "typescript",
+    "reactjs",
+    "tailwindcss",
+    "react-router-dom",
+    "webpack"
+  ],
+  "author": "Prasad Hewage",
+  "license": "ISC",
+  "engines": {
+    "node": ">=20.11.0"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.1",
+    "tailwindcss": "^3.4.10"
+  },
+  "devDependencies": {
+    "@types/react-dom": "^18.3.0",
+    "@types/react-router-dom": "^5.3.3",
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.0",
+    "path": "^0.12.7",
+    "postcss": "^8.4.41",
+    "postcss-loader": "^8.1.1",
+    "postcss-preset-env": "^10.0.1",
+    "style-loader": "^4.0.0",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.5.4",
+    "webpack": "^5.93.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4",
+    "webpack-merge": "^6.0.1"
+  }
+}
